@@ -1,0 +1,108 @@
+body{
+    background-color: black;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: white
+}
+
+/*content to the middle*/
+.content{
+    width: 70%;
+    height: 100%;
+}
+
+/*days with color teal and flex for horizontal display*/
+.days{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: teal;
+}
+
+/*Each day with colour white and alignment center*/
+.day{
+    width: 15%;
+    text-align: center;
+    border: 1px solid white;
+}
+
+/*title of the habit*/
+.title{
+    width: 100%;
+    padding: 1rem;
+    font-size: x-large;
+}
+
+/*status of each day*/
+.dates{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+/*status with color and border*/
+.date{
+    width: 15%;
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid white;
+    padding: 0.5rem;
+}
+
+/*padding for habit title*/
+.habit{
+    padding-top: 1rem;
+    
+}
+
+/*button for goingn home style*/
+.home-button{
+    color: white;
+    margin: 2rem;
+    text-align: center;
+}
+
+.home-button a{
+    text-decoration: none;
+    color: white;
+    font-size:  x-large;
+    padding: 1rem;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+/*removing decoration and adding color for date links*/
+.date a{
+    text-decoration: none;
+    color: white;
+}
+
+.date i{
+    font-size: x-large;
+    color: white;
+}
+
+.date{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*flex for alignmnet inside status details box*/
+.status-date, .status-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.status-date{
+    font-size: medium;
+}
